@@ -740,7 +740,7 @@ button {
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	-ms-appearance: none;
-	appearance: none;
+	/*appearance: none;*/
 	-moz-transition: background-color 0.2s ease-in-out;
 	-webkit-transition: background-color 0.2s ease-in-out;
 	-ms-transition: background-color 0.2s ease-in-out;
@@ -913,7 +913,7 @@ textarea {
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	-ms-appearance: none;
-	appearance: none;
+	/*appearance: none;*/
 	-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -1772,7 +1772,8 @@ body.is-touch .poptrox-popup .closer {
 	left: 0;
 	top: 0;
 	width: 100%;
-	background: rgba(255, 255, 255, 0.95);
+	color:white;
+	background: rgba(28,22,34,0.95);
 	height: 3em;
 	line-height: 3em;
 	box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
@@ -2231,4 +2232,9 @@ body.is-touch .main {
 	font-family: 'Lovers Quarrel', cursive;
 	font-weight: 400;
 	font-size: 40pt;
+}
+.fancyHeader {
+	font-family: 'Lovers Quarrel', cursive;
+	font-weight: 400;
+	font-size: 200pt;
 }
