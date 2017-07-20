@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
-@import url("http://fonts.googleapis.com/css?family=Cutive");
-@import url("http://fonts.googleapis.com/css?family=Lovers+Quarrel");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Cutive");
+@import url("https://fonts.googleapis.com/css?family=Lovers+Quarrel");
 @font-face {
 	font-family: 'FontAwesome';
 	src: url('font/fontawesome-webfont.eot?v=4.0.1');
@@ -2238,3 +2238,4 @@ body.is-touch .main {
 	font-weight: 400;
 	font-size: 200pt;
 }
+
